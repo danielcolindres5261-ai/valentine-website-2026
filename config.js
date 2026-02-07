@@ -22,13 +22,13 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "TE GUSTO?",                                    // First interaction
+            text: "TE GUSTÓ?" 🥹,                                    // First interaction
             yesBtn: "SI",                                             // Text for "Yes" button
             noBtn: "NO",                                               // Text for "No" button
-            secretAnswer: "NO ME GUSTAS, TE AMO! ❤️"           // Secret hover message
+            secretAnswer: "NO SOLO ME GUSTAS, ME ENCANTAS MUCHO! ❤️"           // Secret hover message
         },
         second: {
-            text: "CUANTO ME AMAS?",                          // For the love meter
+            text: "CUANTO ME AMAS DEL 0 AL 100000000?",                          // For the love meter
             startText: "ESTO!",                                   // Text before the percentage
             nextBtn: "SIGUIENTE ❤️"                                         // Text for the next button
         },
@@ -42,14 +42,14 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "A LAAAAAAAAAAAA ENSERIO TANTO?? 🥰🚀💝",  // Shows when they go past 5000%
+        extreme: "TAN POQUITO?? 😭😭",  // Shows when they go past 5000%
         high: "HASTA EL INFINITO Y MAS ALLAAAA! 🚀💝",              // Shows when they go past 1000%
-        normal: "Y TODAVIA MASSSSSSSSSSS! 🥰"                           // Shows when they go past 100%
+        normal: "YO SABIA QUE ME AMAS MUCHISISISISIMOOOOOOO! 🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "SIIIIII, SOY EL HOMBRE MAS AFORTUNADO DEL MUNDOOOOOOO! 🎉💝💖💝💓",
+        title: "SIIIIII, SOY EL HOMBRE MAS AFORTUNADO DEL MUNDOOOOOOO, TE AMO CON TODO MI CORAZON! 🎉💝💖💝💓",
         message: "AHORA VEN POR TU REGALO, UN GRAN ABRAZO Y GRAN BESO Y ESPERA ALGO MAS....!",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
